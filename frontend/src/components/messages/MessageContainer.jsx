@@ -5,7 +5,7 @@ import Messages from "./Messages";
 import { TiMessages } from "react-icons/ti";
 import { useAuthContext } from "../../context/AuthContext";
 import { useSocketContext } from "../../context/SocketContext";
-import ConversationDetails from "../../hooks/conversationDetails";
+import ConversationDetails from "../../hooks/ConversationDetails";
 
 const MessageContainer = () => {
 	const { selectedConversation, setSelectedConversation } = useConversation();
